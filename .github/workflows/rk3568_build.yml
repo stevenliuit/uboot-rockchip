@@ -82,7 +82,7 @@ jobs:
         with:
           repository: stevenliuit/u-boot-source
           ref: ${{ inputs.uboot_ref }}
-          path: u-boot-source
+          path: u-boot
 
       - name: "Configure and build u-boot config: ${{ matrix.board.config }}"
         run: |
