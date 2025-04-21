@@ -44,6 +44,8 @@ jobs:
             config: rock-3a-rk3568_defconfig
           - name: rk3568-rock-3b
             config: rock-3b-rk3568_defconfig
+          - name: rk3568-alark35-3500
+            config: alark35-3500-rk3568_defconfig
       fail-fast: true
 
     steps:
