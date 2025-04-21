@@ -61,7 +61,7 @@ endif
 
 $(UBOOT_DIR):
 	@echo "\n$(h1)cloning u-boot...$(rst)"
-	git clone --depth 1 --branch $(UBOOT_REF) https://github.com/u-boot/u-boot.git $(UBOOT_DIR)
+	git clone --depth 1 --branch $(UBOOT_REF) https://github.com/stevenliuit/u-boot-source.git $(UBOOT_DIR)
 
 # build bl31 with arm trusted firmware
 .PHONY: bl31
