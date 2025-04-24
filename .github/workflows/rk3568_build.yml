@@ -21,29 +21,6 @@ jobs:
     strategy:
       matrix:
         board:
-          - name: rk3568-bpi-r2-pro
-            config: bpi-r2-pro-rk3568_defconfig
-          - name: rk3568-evb
-            config: evb-rk3568_defconfig
-          - name: rk3568-generic
-            config: generic-rk3568_defconfig
-          - name: rk3568-lubancat-2
-            config: lubancat-2-rk3568_defconfig
-          - name: rk3568-nanopi-r5c
-            config: nanopi-r5c-rk3568_defconfig
-          - name: rk3568-nanopi-r5s
-            config: nanopi-r5s-rk3568_defconfig
-          - name: rk3568-odroid-m1
-            config: odroid-m1-rk3568_defconfig
-          - name: rk3568-qnap-ts433
-            config: qnap-ts433-rk3568_defconfig
-          - name: rk3568-radxa-e25
-            config: radxa-e25-rk3568_defconfig
-            baudrate: 115200
-          - name: rk3568-rock-3a
-            config: rock-3a-rk3568_defconfig
-          - name: rk3568-rock-3b
-            config: rock-3b-rk3568_defconfig
           - name: rk3568-alark35-3500
             config: alark35-3500-rk3568_defconfig
       fail-fast: true
